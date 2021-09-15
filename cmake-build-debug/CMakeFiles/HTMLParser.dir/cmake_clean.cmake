@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HTMLParser.dir/main.cpp.obj"
+  "CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.obj"
+  "CMakeFiles/HTMLParser.dir/src/convert.cpp.obj"
+  "CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.obj"
   "HTMLParser.exe"
   "HTMLParser.exe.manifest"
   "HTMLParser.pdb"

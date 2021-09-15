@@ -80,7 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Vaibhav/CLionProjects/HTMLParser/main.cpp">
+		<Unit filename="C:/Users/Vaibhav/CLionProjects/HTMLParser/include/webPageGrabber.hpp">
+			<Option target="HTMLParser"/>
+		</Unit>
+		<Unit filename="C:/Users/Vaibhav/CLionProjects/HTMLParser/src/HTMLParser.cpp">
+			<Option target="HTMLParser"/>
+		</Unit>
+		<Unit filename="C:/Users/Vaibhav/CLionProjects/HTMLParser/src/convert.cpp">
+			<Option target="HTMLParser"/>
+		</Unit>
+		<Unit filename="C:/Users/Vaibhav/CLionProjects/HTMLParser/src/webPageGrabber.cpp">
 			<Option target="HTMLParser"/>
 		</Unit>
 		<Unit filename="C:/Users/Vaibhav/CLionProjects/HTMLParser/CMakeLists.txt">

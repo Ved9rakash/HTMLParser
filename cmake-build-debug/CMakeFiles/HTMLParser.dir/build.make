@@ -65,32 +65,62 @@ include CMakeFiles/HTMLParser.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HTMLParser.dir/flags.make
 
-CMakeFiles/HTMLParser.dir/main.cpp.obj: CMakeFiles/HTMLParser.dir/flags.make
-CMakeFiles/HTMLParser.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vaibhav\CLionProjects\HTMLParser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HTMLParser.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HTMLParser.dir\main.cpp.obj -c C:\Users\Vaibhav\CLionProjects\HTMLParser\main.cpp
+CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.obj: CMakeFiles/HTMLParser.dir/flags.make
+CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.obj: ../src/HTMLParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vaibhav\CLionProjects\HTMLParser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HTMLParser.dir\src\HTMLParser.cpp.obj -c C:\Users\Vaibhav\CLionProjects\HTMLParser\src\HTMLParser.cpp
 
-CMakeFiles/HTMLParser.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HTMLParser.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vaibhav\CLionProjects\HTMLParser\main.cpp > CMakeFiles\HTMLParser.dir\main.cpp.i
+CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vaibhav\CLionProjects\HTMLParser\src\HTMLParser.cpp > CMakeFiles\HTMLParser.dir\src\HTMLParser.cpp.i
 
-CMakeFiles/HTMLParser.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HTMLParser.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vaibhav\CLionProjects\HTMLParser\main.cpp -o CMakeFiles\HTMLParser.dir\main.cpp.s
+CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vaibhav\CLionProjects\HTMLParser\src\HTMLParser.cpp -o CMakeFiles\HTMLParser.dir\src\HTMLParser.cpp.s
+
+CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.obj: CMakeFiles/HTMLParser.dir/flags.make
+CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.obj: ../src/webPageGrabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vaibhav\CLionProjects\HTMLParser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HTMLParser.dir\src\webPageGrabber.cpp.obj -c C:\Users\Vaibhav\CLionProjects\HTMLParser\src\webPageGrabber.cpp
+
+CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vaibhav\CLionProjects\HTMLParser\src\webPageGrabber.cpp > CMakeFiles\HTMLParser.dir\src\webPageGrabber.cpp.i
+
+CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vaibhav\CLionProjects\HTMLParser\src\webPageGrabber.cpp -o CMakeFiles\HTMLParser.dir\src\webPageGrabber.cpp.s
+
+CMakeFiles/HTMLParser.dir/src/convert.cpp.obj: CMakeFiles/HTMLParser.dir/flags.make
+CMakeFiles/HTMLParser.dir/src/convert.cpp.obj: ../src/convert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Vaibhav\CLionProjects\HTMLParser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HTMLParser.dir/src/convert.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HTMLParser.dir\src\convert.cpp.obj -c C:\Users\Vaibhav\CLionProjects\HTMLParser\src\convert.cpp
+
+CMakeFiles/HTMLParser.dir/src/convert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HTMLParser.dir/src/convert.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Vaibhav\CLionProjects\HTMLParser\src\convert.cpp > CMakeFiles\HTMLParser.dir\src\convert.cpp.i
+
+CMakeFiles/HTMLParser.dir/src/convert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HTMLParser.dir/src/convert.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Vaibhav\CLionProjects\HTMLParser\src\convert.cpp -o CMakeFiles\HTMLParser.dir\src\convert.cpp.s
 
 # Object files for target HTMLParser
 HTMLParser_OBJECTS = \
-"CMakeFiles/HTMLParser.dir/main.cpp.obj"
+"CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.obj" \
+"CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.obj" \
+"CMakeFiles/HTMLParser.dir/src/convert.cpp.obj"
 
 # External object files for target HTMLParser
 HTMLParser_EXTERNAL_OBJECTS =
 
-HTMLParser.exe: CMakeFiles/HTMLParser.dir/main.cpp.obj
+HTMLParser.exe: CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.obj
+HTMLParser.exe: CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.obj
+HTMLParser.exe: CMakeFiles/HTMLParser.dir/src/convert.cpp.obj
 HTMLParser.exe: CMakeFiles/HTMLParser.dir/build.make
 HTMLParser.exe: CMakeFiles/HTMLParser.dir/linklibs.rsp
 HTMLParser.exe: CMakeFiles/HTMLParser.dir/objects1.rsp
 HTMLParser.exe: CMakeFiles/HTMLParser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Vaibhav\CLionProjects\HTMLParser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HTMLParser.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Vaibhav\CLionProjects\HTMLParser\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HTMLParser.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HTMLParser.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

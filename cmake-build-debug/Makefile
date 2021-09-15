@@ -128,29 +128,77 @@ HTMLParser/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/build
 .PHONY : HTMLParser/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/HTMLParser.obj: src/HTMLParser.cpp.obj
+.PHONY : src/HTMLParser.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/HTMLParser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.obj
+.PHONY : src/HTMLParser.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/HTMLParser.i: src/HTMLParser.cpp.i
+.PHONY : src/HTMLParser.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/HTMLParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.i
+.PHONY : src/HTMLParser.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/HTMLParser.s: src/HTMLParser.cpp.s
+.PHONY : src/HTMLParser.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/HTMLParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.s
+.PHONY : src/HTMLParser.cpp.s
+
+src/convert.obj: src/convert.cpp.obj
+.PHONY : src/convert.obj
+
+# target to build an object file
+src/convert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/convert.cpp.obj
+.PHONY : src/convert.cpp.obj
+
+src/convert.i: src/convert.cpp.i
+.PHONY : src/convert.i
+
+# target to preprocess a source file
+src/convert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/convert.cpp.i
+.PHONY : src/convert.cpp.i
+
+src/convert.s: src/convert.cpp.s
+.PHONY : src/convert.s
+
+# target to generate assembly for a file
+src/convert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/convert.cpp.s
+.PHONY : src/convert.cpp.s
+
+src/webPageGrabber.obj: src/webPageGrabber.cpp.obj
+.PHONY : src/webPageGrabber.obj
+
+# target to build an object file
+src/webPageGrabber.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.obj
+.PHONY : src/webPageGrabber.cpp.obj
+
+src/webPageGrabber.i: src/webPageGrabber.cpp.i
+.PHONY : src/webPageGrabber.i
+
+# target to preprocess a source file
+src/webPageGrabber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.i
+.PHONY : src/webPageGrabber.cpp.i
+
+src/webPageGrabber.s: src/webPageGrabber.cpp.s
+.PHONY : src/webPageGrabber.s
+
+# target to generate assembly for a file
+src/webPageGrabber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HTMLParser.dir\build.make CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.s
+.PHONY : src/webPageGrabber.cpp.s
 
 # Help Target
 help:
@@ -161,9 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HTMLParser
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/HTMLParser.obj
+	@echo ... src/HTMLParser.i
+	@echo ... src/HTMLParser.s
+	@echo ... src/convert.obj
+	@echo ... src/convert.i
+	@echo ... src/convert.s
+	@echo ... src/webPageGrabber.obj
+	@echo ... src/webPageGrabber.i
+	@echo ... src/webPageGrabber.s
 .PHONY : help
 
 
