@@ -1,5 +1,5 @@
 #include "../include/PageGrabber.hpp"
-//#include "../include/Parse.hpp"
+#include "../include/Parse.hpp"
 
 #include <iostream>
 #include <curl/curl.h>
@@ -40,7 +40,11 @@ int main()
     }
 
     //HTML Parsing
-//    Parse parseData;
+    Parse parseData;
+    std::string tag = "h1";
+    parseData.setFile(fileName);
+    parseData.setTag(tag);
+    parseData.GetData();
 
     return 0;
 }
