@@ -5,9 +5,14 @@
 #ifndef HTMLPARSER_CONVERT_HPP
 #define HTMLPARSER_CONVERT_HPP
 
-class Convert
+
+#include "PageGrabber.hpp"
+
+class Parse : public GrabPage
 {
-    explicit Convert() = default;
+public:
+    explicit Parse() = default;
+
 
 };
 
