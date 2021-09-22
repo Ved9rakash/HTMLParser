@@ -37,50 +37,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Parser">
-				<Option output="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Parser" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Parser"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Parser/fast">
-				<Option output="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Parser" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Parser/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="PageGrabber">
 				<Option output="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/libPageGrabber.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src"/>
@@ -125,15 +81,109 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Parser">
+				<Option output="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Parser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Parser/fast">
+				<Option output="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Parser/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Parse">
+				<Option output="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/libParse.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Parse"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Parse/fast">
+				<Option output="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/libParse.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Parse/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/ved9rakash/CLionProjects/HTMLParser/include/PageGrabber.hpp">
 			<Option target="PageGrabber"/>
+		</Unit>
+		<Unit filename="/home/ved9rakash/CLionProjects/HTMLParser/include/Parse.hpp">
+			<Option target="Parse"/>
 		</Unit>
 		<Unit filename="/home/ved9rakash/CLionProjects/HTMLParser/src/HTMLParser.cpp">
 			<Option target="Parser"/>
 		</Unit>
 		<Unit filename="/home/ved9rakash/CLionProjects/HTMLParser/src/PageGrabber.cpp">
 			<Option target="PageGrabber"/>
+		</Unit>
+		<Unit filename="/home/ved9rakash/CLionProjects/HTMLParser/src/Parse.cpp">
+			<Option target="Parse"/>
 		</Unit>
 		<Unit filename="/home/ved9rakash/CLionProjects/HTMLParser/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
