@@ -24,7 +24,7 @@ namespace sync
             return realsize;
         }
 
-        void saveToFile(CURL* curl, std::string fileName)
+        void saveToFile(CURL* curl, const std::string fileName)
         {
             static std::ofstream file(fileName, std::ios::binary);
             curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, sync::fileHandle::writeToFile);
@@ -47,14 +47,4 @@ namespace sync
         }
         return curl;
     }
-}
-
-CurlGlobalStateGuard::CurlGlobalStateGuard()
-{
-    curl_global_init(CURL_GLOBAL_DEFAULT);
-}
-
-CurlGlobalStateGuard::~CurlGlobalStateGuard() noexcept
-{
-    curl_global_cleanup();
 }
