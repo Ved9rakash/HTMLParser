@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Vaibhav/CLionProjects/HTMLParser/src/HTMLParser.cpp" "C:/Users/Vaibhav/CLionProjects/HTMLParser/cmake-build-debug/CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.obj"
-  "C:/Users/Vaibhav/CLionProjects/HTMLParser/src/convert.cpp" "C:/Users/Vaibhav/CLionProjects/HTMLParser/cmake-build-debug/CMakeFiles/HTMLParser.dir/src/convert.cpp.obj"
-  "C:/Users/Vaibhav/CLionProjects/HTMLParser/src/webPageGrabber.cpp" "C:/Users/Vaibhav/CLionProjects/HTMLParser/cmake-build-debug/CMakeFiles/HTMLParser.dir/src/webPageGrabber.cpp.obj"
+  "/home/ved9rakash/CLionProjects/HTMLParser/src/HTMLParser.cpp" "/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/CMakeFiles/HTMLParser.dir/src/HTMLParser.cpp.o"
+  "/home/ved9rakash/CLionProjects/HTMLParser/src/PageGrabber.cpp" "/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/CMakeFiles/HTMLParser.dir/src/PageGrabber.cpp.o"
+  "/home/ved9rakash/CLionProjects/HTMLParser/src/Parse.cpp" "/home/ved9rakash/CLionProjects/HTMLParser/cmake-build-debug/CMakeFiles/HTMLParser.dir/src/Parse.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
