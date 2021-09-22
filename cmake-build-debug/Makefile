@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PageGrabber
+
+# Build rule for target.
+PageGrabber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PageGrabber
+.PHONY : PageGrabber
+
+# fast build rule for target.
+PageGrabber/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/PageGrabber.dir/build.make src/CMakeFiles/PageGrabber.dir/build
+.PHONY : PageGrabber/fast
+
+#=============================================================================
 # Target rules for targets named Parser
 
 # Build rule for target.
@@ -130,17 +143,17 @@ Parser/fast:
 .PHONY : Parser/fast
 
 #=============================================================================
-# Target rules for targets named PageGrabber
+# Target rules for targets named Parse
 
 # Build rule for target.
-PageGrabber: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PageGrabber
-.PHONY : PageGrabber
+Parse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Parse
+.PHONY : Parse
 
 # fast build rule for target.
-PageGrabber/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/PageGrabber.dir/build.make src/CMakeFiles/PageGrabber.dir/build
-.PHONY : PageGrabber/fast
+Parse/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Parse.dir/build.make src/CMakeFiles/Parse.dir/build
+.PHONY : Parse/fast
 
 # Help Target
 help:
@@ -151,6 +164,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PageGrabber"
+	@echo "... Parse"
 	@echo "... Parser"
 .PHONY : help
 
