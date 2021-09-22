@@ -25,12 +25,5 @@ namespace sync
     }
     void setSSL(CURL* curl);
     EasyHandle CreateEasyHandle();
-}
 
-//Initializing curl and clearing up curl after object is destroyed.
-class CurlGlobalStateGuard
-{
-public:
-    CurlGlobalStateGuard();
-    ~CurlGlobalStateGuard();
-};
+}
