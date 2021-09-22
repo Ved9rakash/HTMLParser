@@ -1,19 +1,22 @@
-//
-// Created by Vaibhav on 15-09-2021.
-//
 
-#ifndef HTMLPARSER_CONVERT_HPP
-#define HTMLPARSER_CONVERT_HPP
-
+#pragma once
 
 #include "PageGrabber.hpp"
+#include <string>
 
-class Parse : public GrabPage
+
+class Parse
 {
 public:
-    explicit Parse() = default;
+    explicit Parse();
+    Parse(std::string fileName, std::string tagName);
 
+    void setFile(std::string fileName);
+    void setTag(std::string tagName);
 
+    void GetData();
+
+private:
+    std::string m_fileName{};
+    std::string m_tag{};
 };
-
-#endif //HTMLPARSER_CONVERT_HPP
