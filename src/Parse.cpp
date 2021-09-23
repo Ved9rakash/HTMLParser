@@ -4,6 +4,7 @@
 #include <fstream>
 #include <algorithm>
 #include <tuple>
+#include <iostream>
 
 
 Parse::Parse() { }
@@ -27,10 +28,10 @@ void Parse::setTag(std::string tagName)
 
 void Parse::GetData()
 {
-    m_fileName =  "../cmake-build-debug/src/" + m_fileName;
     std::vector<std::pair<std::string, std::string>> data;
+
+    m_fileName =  "../cmake-build-debug/src/" + m_fileName;
     std::ifstream file(m_fileName);
-    std::string savedFile = m_tag + ".txt";
     std::string currentLine;
     if (file.is_open())
     {
@@ -40,7 +41,8 @@ void Parse::GetData()
             std::string first, second;
             int i = m_tag.length()+1;
             //Check if it exists
-            if (currentLine.substr(0, m_tag.length() + 1) == ("<" + m_tag)) {
+            if (currentLine.substr(0, i) == ("<" + m_tag)) {
+                std::cout << "Line met";
                 for (; currentLine.length(); ++i) {
                     if (currentLine[i] == '>') {
                         index = i;
@@ -59,10 +61,11 @@ void Parse::GetData()
             }
             data.emplace_back(first, second);
         }
+        std::string savedFile = m_tag + ".txt";
         std::ofstream savefile(savedFile);
         for (const auto& element : data)
         {
-            savedFile << element.first << " : " << element.second;
+            savefile << element.first << " : " << element.second;
         }
     }
 }
