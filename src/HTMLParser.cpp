@@ -1,3 +1,5 @@
+//Parsing phase is still incomplete
+
 #include "../include/PageGrabber.hpp"
 #include "../include/Parse.hpp"
 
@@ -41,7 +43,7 @@ int main()
 
     //HTML Parsing
     Parse parseData;
-    std::string tag = "h1";
+    std::string tag = "a";
     parseData.setFile(fileName);
     parseData.setTag(tag);
     parseData.GetData();
